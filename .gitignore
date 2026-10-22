@@ -1,0 +1,17 @@
+# Prerequisites
+.venv/
+.rocks/
+
+# Project caches and runtime data
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# Data Ingestion Constraints (Do not upload large evaluation files)
+*.csv
+!validation_predictions_template.csv
+
+# Output results (Will be verified locally by recruiters)
+scorer_results/
